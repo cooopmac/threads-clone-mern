@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-// import user from "./routes/user";
+import user from "./routes/User";
 
 const PORT = process.env.PORT || 8000;
 const app = express();
@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => res.send("Active"));
 
-// app.use("/user", user);
+app.use("/user", user);
 
 // start the Express server
 app.listen(PORT, () => {
