@@ -3,3 +3,5 @@ export const FetchProfile = async (req, res) => {
   // if user is found, return their info e.g username, bio, profile pic, threads
   // error if no user is found
 };
+
+export default FetchProfile;

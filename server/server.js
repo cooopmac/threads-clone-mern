@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import user from "./routes/User";
+import user from "./routes/User.js";
 
 const PORT = process.env.PORT || 8000;
 const app = express();
