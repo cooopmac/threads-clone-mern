@@ -31,7 +31,6 @@ const UserSchema = new Schema({
       ref: "User",
     },
   ],
-
   date: {
     type: Date,
     default: Date.now,

@@ -4,6 +4,6 @@ import { Signup, Login } from "../functions/AuthFunctions.js";
 const router = express.Router();
 
 router.post("/signup", Signup);
-router.get("/login", Login);
+router.post("/login", Login);
 
 export default router;
