@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import ProfilePage from "./pages/profile/ProfilePage";
+import HomePage from "./pages/home/HomePage";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Routes>
-          <Route path="/profile" index element={<ProfilePage />}></Route>
+          <Route path="/home" index element={<HomePage />}></Route>
         </Routes>
       </Router>
     </div>
